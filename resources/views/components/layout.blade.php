@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body class="container">
-    <h1>{{ $title }}</h1>
-
     {{ $slot }}
 </body>
 </html>
